@@ -9,18 +9,18 @@
 body {
     width: 100%;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 14pt; /* mudou de 10 p 14, para melhorar a leitura. Nunca menor que 10 ou maior que 14 */
+	font-size: 16pt;
 	color: #333;
 	background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom; /* imagem de fundo sem repetição, centralizada ao rodapé.*/
 }
 
 h1 { /* mudou */
-    font-size: 24pt;
+    font-size: 28pt;
     padding: 15px 0px 10px 0px;
 }
 
 h2 { /* mudou */
-    font-size: 20pt;
+    font-size: 24pt;
     padding: 10px 0px 5px 0px;
 }
 
@@ -65,12 +65,12 @@ nav ul li {
 }
 
 nav ul li a { /* menu com cores invertidas em relação ao desktop */
-    padding: 10px 0px 10px 5px;
+    padding: 15px 0px 15px 5px;
     background: #333;
 	color: #fff;
 	text-decoration: none; /* sem sublinhado */
 	display: block;
-	font-size: 12pt;
+	font-size: 16pt;
 	transition: all 0.5s ease 0.3s; /* 0.5 = tempo na transição; 0.3 = tempo antes da transição */
 }
 
@@ -95,28 +95,29 @@ aside#imagens {
 }
 
 .imagem {
-    width: 300px;
+    width: 70%;
 }
 
 .video { /* mudou */
-    width: 400px;
-    height: 225px;
+    width: 784px;
+    height: 441px;
 }
 
 .mapa { /* mudou */
-    width: 450px;
-    height: 700px;
+    width: 800px;
+    height: 1000px;
 }
 
 footer { /* mudou */
 	width: 100%;
 	line-height: 50px;
+	text-align: right;
 	border-top: 1px solid #333;
 }
 
 footer a {
 	color: #000;
 	text-decoration: none; /* sem sublinhado */
-	font-size: 10pt;
+	font-size: 14pt;
 	font-style: italic;
 }
