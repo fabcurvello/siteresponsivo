@@ -65,7 +65,7 @@ nav ul li {
 }
 
 nav ul li a { /* menu com cores invertidas em relação ao desktop */
-    padding: 15px 0px 15px 5px;
+    padding: 15px 0px 15px 10px;
     background: #333;
 	color: #fff;
 	text-decoration: none; /* sem sublinhado */
@@ -77,7 +77,7 @@ nav ul li a { /* menu com cores invertidas em relação ao desktop */
 nav ul li a:hover { /* menu com cores invertidas em relação ao desktop */
 	color: #333;
 	background: #cecece;
-	text-indent: 20px; /* espaço antes do texto */
+	text-indent: 30px; /* espaço antes do texto */
 }
 
 section { /* mudou */
