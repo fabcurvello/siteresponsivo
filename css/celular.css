@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    width: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12pt; /* mudou de 10 p 12, para melhorar a leitura. Nunca menor que 10 ou maior que 14 */
+	color: #333;
+	background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom; /* imagem de fundo sem repetição, centralizada ao rodapé.*/
+}
+
+h1 {
+    font-size: 18pt;
+    padding: 15px 0px 10px 0px; /* mudou */
+}
+
+h2 {
+    font-size: 14pt;
+    padding: 10px 0px 5px 0px; /* mudou */
+}
+
+p {
+	margin: 0px 0px 10px; /* mudou */
+	line-height: 1.5em; /* espaçamento entre linhas */
+}
+
+div#interface { /* mudou tudo */
+	max-width: 640px; /* Máximo para largura de tela smartphone */
+	min-width: 300px; /* Mínimo de tela de celular até hj é 320 px, então descontando o padding e margin, ficamos com 300 */
+	padding: 20px;
+	background: rgba(255,255,255,0.75); /* rgb alpha. O 0.75 é uma transparência */
+	margin: auto;
+}
+
+aside#logo-menu { /* mudou */
+	width: 100%;
+	/* background-color: red; */
+}
+
+header { /* mudou */
+	width: 100%;
+	text-align:center;
+	background: #ccc;
+}
+
+header img { /* mudou */
+    margin: 12px 0 10px 0; /* mudou de 0 p 10px no bottom */
+	width: 80%; /* não existia. A largura está em % pois as telas são de tamanhos diferentes */
+}
+
+header, section article, section .imagem, section {
+	margin: 0px 0px 15px 0px;
+}
+
+nav ul li {
+	list-style: none; /* sem marcadores */
+	line-height: 32px; /* espaçamento entre linhas */
+	border-bottom: 1px solid #ccc;
+}
+
+nav ul li a { /* menu com cores invertidas em relação ao desktop */
+    padding: 10px 0px 10px 5px;
+    background: #333;
+	color: #fff;
+	text-decoration: none; /* sem sublinhado */
+	display: block;
+	font-size: 12pt;
+	transition: all 0.5s ease 0.3s; /* 0.5 = tempo na transição; 0.3 = tempo antes da transição */
+}
+
+nav ul li a:hover { /* menu com cores invertidas em relação ao desktop */
+	color: #333;
+	background: #cecece;
+	text-indent: 20px; /* espaço antes do texto */
+}
+
+section { /* mudou */
+	width: 100%;
+}
+
+article#texto, article#artigo-interno { /* mudou */
+	width: 100%;
+	/* background-color: red; */
+}
+
+aside#imagens {
+    width: 100%;
+    /* background-color: red; */
+}
+
+.imagem {
+    width: 300px;
+}
+
+.video { /* mudou */
+    width: 400px;
+    height: 225px;
+}
+
+.mapa { /* mudou */
+    width: 450px;
+    height: 700px;
+}
+
+footer { /* mudou */
+	width: 100%;
+	line-height: 50px;
+	border-top: 1px solid #333;
+}
+
+footer a {
+	color: #000;
+	text-decoration: none; /* sem sublinhado */
+	font-size: 10pt;
+	font-style: italic;
+}
