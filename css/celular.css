@@ -9,19 +9,19 @@
 body {
     width: 100%;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12pt; /* mudou de 10 p 12, para melhorar a leitura. Nunca menor que 10 ou maior que 14 */
+	font-size: 14pt; /* mudou de 10 p 14, para melhorar a leitura. Nunca menor que 10 ou maior que 14 */
 	color: #333;
 	background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom; /* imagem de fundo sem repetição, centralizada ao rodapé.*/
 }
 
-h1 {
-    font-size: 18pt;
-    padding: 15px 0px 10px 0px; /* mudou */
+h1 { /* mudou */
+    font-size: 24pt;
+    padding: 15px 0px 10px 0px;
 }
 
-h2 {
-    font-size: 14pt;
-    padding: 10px 0px 5px 0px; /* mudou */
+h2 { /* mudou */
+    font-size: 20pt;
+    padding: 10px 0px 5px 0px;
 }
 
 p {
@@ -30,7 +30,8 @@ p {
 }
 
 div#interface { /* mudou tudo */
-	max-width: 640px; /* Máximo para largura de tela smartphone */
+	/* max-width: 640px; /* Máximo para largura de tela smartphone */
+	max-width: 900px;
 	min-width: 300px; /* Mínimo de tela de celular até hj é 320 px, então descontando o padding e margin, ficamos com 300 */
 	padding: 20px;
 	background: rgba(255,255,255,0.75); /* rgb alpha. O 0.75 é uma transparência */
