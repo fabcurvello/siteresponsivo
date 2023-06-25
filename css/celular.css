@@ -9,7 +9,7 @@
 body {
     width: 100%;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	color: #333;
 	background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom; /* imagem de fundo sem repetição, centralizada ao rodapé.*/
 }
@@ -70,7 +70,7 @@ nav ul li a { /* menu com cores invertidas em relação ao desktop */
 	color: #fff;
 	text-decoration: none; /* sem sublinhado */
 	display: block;
-	font-size: 2rem;
+	font-size: 2.3rem;
 	transition: all 0.3s;
 }
 
