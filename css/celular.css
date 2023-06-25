@@ -16,12 +16,12 @@ body {
 
 h1 { /* mudou */
     font-size: 4rem;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1.5rem 0rem 2rem 0rem;
 }
 
 h2 { /* mudou */
     font-size: 3rem;
-    padding: 0.8rem 0rem 0.5rem 0rem;
+    padding: 1rem 0rem 1.5rem 0rem;
 }
 
 p {
