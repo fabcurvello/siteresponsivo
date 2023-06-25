@@ -9,24 +9,24 @@
 body {
     width: 100%;
 	font-family: Verdana, Geneva, sans-serif;
-	font-size: 16pt;
+	font-size: 2rem;
 	color: #333;
 	background: #000 url("../imagens/fundo-baixo.jpg") no-repeat center bottom; /* imagem de fundo sem repetição, centralizada ao rodapé.*/
 }
 
 h1 { /* mudou */
-    font-size: 28pt;
-    padding: 15px 0px 10px 0px;
+    font-size: 4rem;
+    padding: 1rem 0rem 1rem 0rem;
 }
 
 h2 { /* mudou */
-    font-size: 24pt;
-    padding: 10px 0px 5px 0px;
+    font-size: 3rem;
+    padding: 0.8rem 0rem 0.5rem 0rem;
 }
 
 p {
-	margin: 0px 0px 10px; /* mudou */
-	line-height: 1.5em; /* espaçamento entre linhas */
+	margin: 0rem 0rem 2rem 0rem ; /* mudou */
+	line-height: 3rem; /* espaçamento entre linhas */
 }
 
 div#interface { /* mudou tudo */
@@ -34,7 +34,7 @@ div#interface { /* mudou tudo */
 	max-width: 900px;
 	min-width: 300px; /* Mínimo de tela de celular até hj é 320 px, então descontando o padding e margin, ficamos com 300 */
 	padding: 20px;
-	background: rgba(255,255,255,0.75); /* rgb alpha. O 0.75 é uma transparência */
+	background: rgba(255,255,255,0.90); /* rgb alpha. O 0.90 é uma transparência */
 	margin: auto;
 }
 
@@ -46,7 +46,7 @@ aside#logo-menu { /* mudou */
 header { /* mudou */
 	width: 100%;
 	text-align:center;
-	background: #ccc;
+	background: #fff;
 }
 
 header img { /* mudou */
@@ -60,24 +60,24 @@ header, section article, section .imagem, section {
 
 nav ul li {
 	list-style: none; /* sem marcadores */
-	line-height: 32px; /* espaçamento entre linhas */
-	border-bottom: 1px solid #ccc;
+	line-height: 4rem; /* espaçamento entre linhas */
+	border-bottom: 0.2rem solid #ccc;
 }
 
 nav ul li a { /* menu com cores invertidas em relação ao desktop */
-    padding: 15px 0px 15px 10px;
+    padding: 2rem 0rem 2rem 2rem;
     background: #333;
 	color: #fff;
 	text-decoration: none; /* sem sublinhado */
 	display: block;
-	font-size: 16pt;
-	transition: all 0.5s ease 0.3s; /* 0.5 = tempo na transição; 0.3 = tempo antes da transição */
+	font-size: 2rem;
+	transition: all 0.3s;
 }
 
 nav ul li a:hover { /* menu com cores invertidas em relação ao desktop */
 	color: #333;
 	background: #cecece;
-	text-indent: 30px; /* espaço antes do texto */
+	text-indent: 4rem; /* espaço antes do texto */
 }
 
 section { /* mudou */
@@ -118,6 +118,6 @@ footer { /* mudou */
 footer a {
 	color: #000;
 	text-decoration: none; /* sem sublinhado */
-	font-size: 14pt;
+	font-size: 1.7rem;
 	font-style: italic;
 }
